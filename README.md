@@ -15,7 +15,21 @@ A simple 2D Asteroids-style game built in Python using Pygame. Control a triangu
   - Uses circle-based collisions for the player, asteroids, and bullets
   - If an asteroid hits the player, the game ends
 
-## Known Issues / Future Improvements
+## Known Issues 
 - No replay screen: Currently, the game closes on collision.
 - No audio: Sound effects not yet implemented.
 - No bullet cleanup: Shots fly offscreen infinitely.
+
+## Ideas for Future Improvements
+- Build upon the incredibly basic scoring system
+- Implement multiple lives and respawning
+- Add an explosion effect for the asteroids
+- Add acceleration to the player movement
+- Make the objects wrap around the screen instead of disappearing
+- Add a background image
+- Create different weapon types
+- Make the asteroids lumpy instead of perfectly round
+- Make the ship have a triangular hit box instead of a circular one
+- Add a shield power-up
+- Add a speed power-up
+- Add bombs that can be dropped
