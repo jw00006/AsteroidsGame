@@ -19,6 +19,7 @@ A simple 2D Asteroids-style game built in Python using Pygame. Control a triangu
 - No replay screen: Currently, the game closes on collision.
 - No audio: Sound effects not yet implemented.
 - No bullet cleanup: Shots fly offscreen infinitely.
+- Asteroids do not reset / disappear and respawn on restart.
 
 ## Ideas for Future Improvements
 - Build upon the incredibly basic scoring system
