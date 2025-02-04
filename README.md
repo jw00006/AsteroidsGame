@@ -40,7 +40,7 @@ Finally, running the main script
 python3 main.py
 ```
 
-![Gameplay](https://github.com/jw00006/AsteroidsGame/gameplay.gif)
+![Gameplay](https://github.com/jw00006/AsteroidsGame/asteroids_gameplay.gif)
 
 ## Known Issues 
 - No replay screen: Currently, the game closes on collision.
