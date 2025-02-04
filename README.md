@@ -15,6 +15,33 @@ A simple 2D Asteroids-style game built in Python using Pygame. Control a triangu
   - Uses circle-based collisions for the player, asteroids, and bullets
   - If an asteroid hits the player, the game ends
 
+## Set up / Environment
+- Clone the repository
+```
+git clone https://github.com/jw00006/AsteroidsGame.git
+cd AsteroidsGame
+```
+- Optional: Create / use a virtual environment
+```
+python3 -m venv venv
+source venv/bin/activate  # On Linux/macOS
+# or venv\Scripts\activate (Windows)
+```
+- Otherwise, required to install pygame through either
+```
+pip install -r requirements.txt
+```
+Or ...
+```
+pip install pygame 
+```
+Finally, running the main script
+```
+python3 main.py
+```
+
+![Gameplay](https://github.com/jw00006/AsteroidsGame/gameplay.gif)
+
 ## Known Issues 
 - No replay screen: Currently, the game closes on collision.
 - No audio: Sound effects not yet implemented.
